@@ -3,7 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Shelter Seeker</title>
+    <title>AL RAFAR Electronics </title>
+    <link rel="shortcut icon" href="{{ asset('assets/front/images/title.ico') }}" type="image/x-icon">
     @include('front.partial.style')
     <style>
 
