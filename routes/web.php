@@ -17,9 +17,9 @@ use Illuminate\Support\Facades\Route;
 Route::get('/',[ShowProductController::class,'index'])->name('content');
 
 
-Route::get('/indexProduct', [ProductController::class, 'index'])->name('index.product');
-Route::get('/createProduct', [ProductController::class, 'create'])->name('create.product');
-Route::post('/storeProduct', [ProductController::class, 'store'])->name('store.product');
-Route::get('/editProduct/{id}', [ProductController::class, 'edit'])->name('edit.product');
-Route::any('/deleteProduct/{id}', [ProductController::class, 'destroy'])->name('delete.product');
-Route::post('/updateProduct/{id}', [ProductController::class, 'update'])->name('update.product');
+//Route::get('/indexProduct', [ProductController::class, 'index'])->name('index.product');
+//Route::get('/createProduct', [ProductController::class, 'create'])->name('create.product');
+//Route::post('/storeProduct', [ProductController::class, 'store'])->name('store.product');
+//Route::get('/editProduct/{id}', [ProductController::class, 'edit'])->name('edit.product');
+//Route::any('/deleteProduct/{id}', [ProductController::class, 'destroy'])->name('delete.product');
+//Route::post('/updateProduct/{id}', [ProductController::class, 'update'])->name('update.product');
